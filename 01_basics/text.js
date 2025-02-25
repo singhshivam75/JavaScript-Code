@@ -1,1 +1,2 @@
-console.log("Shivam")
+// const never changed
+// var changable
