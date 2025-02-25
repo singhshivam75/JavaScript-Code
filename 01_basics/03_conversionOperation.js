@@ -76,7 +76,74 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33;
 
 let stringNumber = String(someNumber)
-console.log(stringNumber); // number
-console.log(typeof stringNumber); // string
+// console.log(stringNumber); // number
+// console.log(typeof stringNumber); // string
 
 
+// ******************* Oprations ********************
+
+let value = 3
+let nagValue = -value
+// console.log(nagValue);
+
+
+// Numericals type
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "Shivam"
+let str2 = " Singh"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log( (3+4) * 5 % 3);
+
+// console.log(+true); // try no use
+// console.log(+""); // wrong way
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2 // not correct way
+
+
+/*      Increment (++)      */
+
+let gameCounter = 100
+gameCounter++;
+// console.log(gameCounter);
+
+let gameCounters = 100
+++gameCounters;
+// console.log(gameCounters);
+
+
+let x = 3;
+const y = x++;
+
+// console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+// console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+let c = 5;
+console.log(c++); // 5 (returns the original value, then increments)
+console.log(c);   // 6 (x is now incremented)
+
+let d = 5;
+console.log(++d); // 6 (increments first, then returns the value)
+console.log(d);   // 6 (y remains incremented)
